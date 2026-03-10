@@ -25,7 +25,15 @@ Example output:
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed
 - Node.js (the hook runs via `node`)
 
-### Steps
+### via npm (recommended)
+
+```bash
+npm install -g @prafulsrivastava/claude-statusline
+```
+
+The `postinstall` script automatically copies the hook to `~/.claude/hooks/statusline.js` and prints the settings snippet to add to your `~/.claude/settings.json`.
+
+### Manual install
 
 1. Copy the hook to your Claude hooks directory:
 

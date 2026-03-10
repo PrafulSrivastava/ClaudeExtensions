@@ -1,0 +1,25 @@
+{
+  "name": "@prafulsrivastava/claude-statusline",
+  "version": "2.3.0",
+  "description": "A Claude Code StatusLine hook showing model, cost, context window usage, and git branch",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "hook",
+    "statusline"
+  ],
+  "homepage": "https://github.com/PrafulSrivastava/ClaudeExtensions#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrafulSrivastava/ClaudeExtensions.git"
+  },
+  "license": "MIT",
+  "author": "PrafulSrivastava",
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "files": [
+    "hooks/",
+    "scripts/"
+  ]
+}
