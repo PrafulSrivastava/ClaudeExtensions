@@ -31,7 +31,7 @@ Example output:
 npm install -g @prafulsrivastava/claude-statusline
 ```
 
-The `postinstall` script automatically copies the hook to `~/.claude/hooks/statusline.js` and prints the settings snippet to add to your `~/.claude/settings.json`.
+The `postinstall` script automatically copies the hook to `~/.claude/hooks/statusline.js` and updates `~/.claude/settings.json` with the required config. Just restart Claude Code after installing.
 
 ### Manual install
 
