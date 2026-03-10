@@ -57,17 +57,9 @@ The `postinstall` script automatically copies the hook to `~/.claude/hooks/statu
 
    ```json
    {
-     "hooks": {
-       "StatusLine": [
-         {
-           "hooks": [
-             {
-               "type": "command",
-               "command": "node ~/.claude/hooks/statusline.js"
-             }
-           ]
-         }
-       ]
+     "statusLine": {
+       "type": "command",
+       "command": "node ~/.claude/hooks/statusline.js"
      }
    }
    ```

@@ -19,17 +19,9 @@ claude-statusline installed to: ${dest}
 Add the following to your ~/.claude/settings.json:
 
 {
-  "hooks": {
-    "StatusLine": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node ${dest.replace(/\\/g, '/')}"
-          }
-        ]
-      }
-    ]
+  "statusLine": {
+    "type": "command",
+    "command": "node ${dest.replace(/\\/g, '/')}"
   }
 }
 
