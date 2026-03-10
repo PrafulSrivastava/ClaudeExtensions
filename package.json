@@ -1,6 +1,6 @@
 {
   "name": "@prafulsrivastava/claude-statusline",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "A Claude Code StatusLine hook showing model, cost, context window usage, and git branch",
   "keywords": [
     "claude",
